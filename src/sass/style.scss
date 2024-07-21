@@ -1,0 +1,108 @@
+@import './libs/bootstrap-reboot.min';
+@import './base/variables';
+@import './base/mixins';
+
+.pt-sans-regular {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pt-sans-bold {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+
+html {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  font-family: "PT Sans", sans-serif;
+}
+
+.pages-backgroud {
+  display: block;
+  padding: 0px 40px;
+  width: 1280px;
+  margin: 0 auto;
+  background: #f2f2f2;
+  z-index: 0;
+}
+
+.main-index {
+  flex-grow: 1;
+  background: #fff;
+  box-shadow: 0 8 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+.main-inner {
+  flex-grow: 1;
+  background: #fff;
+  box-shadow: 0 8 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+@import './blocks/title';
+@import './blocks/header';
+@import './blocks/promo';
+@import './blocks/advantages';
+@import './blocks/offer';
+@import './blocks/search';
+@import './blocks/subscribe';
+@import './blocks/footer';
+@import './blocks/catalog';
+@import './blocks/modal';

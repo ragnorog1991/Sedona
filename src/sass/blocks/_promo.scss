@@ -1,0 +1,26 @@
+.promo {
+  display: flex;
+  position: relative;
+  min-height: 485px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #798895;
+  background: url('../img/background/index-background.jpg') no-repeat 50% / auto;
+  padding: 51px 82px;
+
+  :before {
+    position: absolute;
+    content: "";
+    width: 1200px;
+    height: 57px;
+    bottom: 0;
+    left: 0;
+    background: url('../img/background/sedona_bg_vector.svg') no-repeat 50% / auto;
+  }
+
+
+  &__img {
+    display: flex;
+    margin: 0 auto;
+  }
+}
