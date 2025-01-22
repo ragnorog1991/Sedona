@@ -19,7 +19,7 @@
       position: relative;
 
       &:hover {
-        opacity: .6;
+        opacity: 0.6;
         z-index: 2;
       }
 
@@ -43,12 +43,10 @@
       min-width: 354px;
       flex-wrap: wrap;
 
-
       &-item {
         display: flex;
         margin: 0 auto;
         align-self: center;
-
 
         &:active {
           outline: none;
@@ -78,7 +76,6 @@
           color: rgba(117, 97, 87, 0.3);
           outline: none;
         }
-
       }
     }
   }
@@ -121,7 +118,6 @@
         background-color: #e5e5e5;
         color: rgba(255, 255, 255, 0.1);
       }
-
     }
   }
 
@@ -140,7 +136,6 @@
       display: flex;
       align-self: center;
 
-
       &-link {
         color: #fff;
         font-size: 16px;
@@ -152,7 +147,7 @@
         padding: 17px 12px 17px 12px;
 
         &:hover {
-          opacity: .6;
+          opacity: 0.6;
         }
 
         &:focus-visible {
@@ -160,12 +155,8 @@
           z-index: 2;
         }
       }
-
     }
-
   }
-
-
 }
 
 ul {
@@ -175,7 +166,6 @@ ul {
 a:hover {
   text-decoration: none;
 }
-
 
 .loupe::before {
   position: absolute;
@@ -205,7 +195,7 @@ a:hover {
   content: "12";
   min-width: 20px;
   min-height: 20px;
-  right: 7px;
+  left: 20px;
   top: 10px;
   z-index: 3;
   justify-content: center;
@@ -227,7 +217,7 @@ a:hover {
   width: 68px;
   height: 0px;
   bottom: 4px;
-  left: 184px;
+  left: 171px;
   border: 2px solid #756257;
 }
 

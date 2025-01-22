@@ -1,6 +1,6 @@
-@import './libs/bootstrap-reboot.min';
-@import './base/variables';
-@import './base/mixins';
+@import "./libs/bootstrap-reboot.min";
+@import "./base/variables";
+@import "./base/mixins";
 
 .pt-sans-regular {
   font-family: "PT Sans", sans-serif;
@@ -29,7 +29,6 @@
   src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
-
 
 html {
   height: 100%;
@@ -74,12 +73,10 @@ body {
   box-shadow: 0 8 15px 0 rgba(0, 0, 0, 0.2);
 }
 
-
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
 }
-
 
 .visually-hidden {
   position: absolute;
@@ -96,13 +93,14 @@ li:last-child {
   margin-bottom: 0;
 }
 
-@import './blocks/title';
-@import './blocks/header';
-@import './blocks/promo';
-@import './blocks/advantages';
-@import './blocks/offer';
-@import './blocks/search';
-@import './blocks/subscribe';
-@import './blocks/footer';
-@import './blocks/catalog';
-@import './blocks/modal';
+@import "./blocks/title";
+@import "./blocks/header";
+@import "./blocks/promo";
+@import "./blocks/advantages";
+@import "./blocks/offer";
+@import "./blocks/search";
+@import "./blocks/subscribe";
+@import "./blocks/footer";
+@import "./blocks/catalog";
+@import "./blocks/modal";
+@import "./blocks/media";

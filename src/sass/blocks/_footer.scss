@@ -5,7 +5,7 @@ footer {
 
 .social {
   display: flex;
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
   min-height: 120px;
   padding: 0 70px 0 70px;
@@ -73,18 +73,18 @@ footer {
     width: 47.33px;
     height: 40px;
     padding: 0px 10px 0px 10px;
-    fill: #83B3D3;
+    fill: #83b3d3;
 
     &:hover {
-      fill: #68A2CA;
+      fill: #68a2ca;
     }
 
     &:focus {
-      fill: #68A2CA;
+      fill: #68a2ca;
     }
 
     &:active {
-      fill: #68A2CA;
+      fill: #68a2ca;
       opacity: 0.3;
     }
   }
